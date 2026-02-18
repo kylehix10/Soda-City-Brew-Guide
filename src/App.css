@@ -265,7 +265,7 @@
   top: 50px;
   right: 0;
   min-width: 240px;
-  background: color-mix(in srgb, var(--theme-panel) 82%, black 12%);
+  background: color-mix(in srgb, var(--theme-accent-soft) 30%, #111111 70%);
   border-radius: 12px;
   padding: 0.5rem;
   box-shadow: 0 14px 26px rgba(0, 0, 0, 0.24);
