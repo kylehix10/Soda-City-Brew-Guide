@@ -1,8 +1,25 @@
+import beerBierkeller from '../img/bierkeller.png'
+import beerCarolinaLight from '../img/carolinaLight.jpeg'
+import beerCoffeeLager from '../img/coffeeLager.png'
+import beerHazy from '../img/hazy.jpg'
+import beerHg from '../img/hg.png'
+import beerKellerbier from '../img/kellerbier.png'
+import beerKolsch from '../img/kolsch.png'
+import beerPecanBrown from '../img/pecanBrown.png'
+import beerPurge from '../img/purge.jpeg'
+import beerRaspSour from '../img/rasp-sour.jpg'
+import beerSavageCraft from '../img/savageCraft.png'
+import beerSteelHands from '../img/steelHands.png'
+import beerStout from '../img/stout.jpg'
+import beerTropicalIPA from '../img/tropicalIPA.png'
+import beerVale from '../img/vale.jpeg'
+import beerWeissbier from '../img/weissbier.png'
+
 export const breweries = [
   {
     id: 'steelhands',
     name: 'Steel Hands Brewing',
-    imageUrl: '/src/img/steelHands.png',
+    imageUrl: beerSteelHands,
     location: '2350 Foreman St, Cayce, SC',
     tagline: 'Your hometown destination brewery',
     theme: {
@@ -16,7 +33,7 @@ export const breweries = [
       {
         id: 'coffee-lager',
         name: 'Coffee Lager',
-        imageUrl: '/src/img/coffeeLager.png',
+        imageUrl: beerCoffeeLager,
         style: 'Lager',
         abv: '4.5%',
         description:
@@ -25,7 +42,7 @@ export const breweries = [
       {
         id: 'tropical-ipa',
         name: 'Tropical IPA',
-        imageUrl: '/src/img/tropicalIPA.png',
+        imageUrl: beerTropicalIPA,
         style: 'India Pale Ale',
         abv: '4.5%',
         description:
@@ -34,7 +51,7 @@ export const breweries = [
       {
         id: 'pecan-brown-ale',
         name: 'Pecan Brown Ale',
-        imageUrl: '/src/img/pecanBrown.png',
+        imageUrl: beerPecanBrown,
         style: 'Brown Ale',
         abv: '5.5%',
         description:
@@ -45,7 +62,7 @@ export const breweries = [
   {
     id: 'savageCraft',
     name: 'Savage Craft Ale Works',
-    imageUrl: '/src/img/savageCraft.png',
+    imageUrl: beerSavageCraft,
     location: '430 Center St, West Columbia, SC',
     tagline: '',
     theme: {
@@ -59,7 +76,7 @@ export const breweries = [
       {
         id: 'carolina-Light',
         name: 'Carolina Light Cream Ale',
-        imageUrl: '/src/img/carolinaLight.jpeg',
+        imageUrl: beerCarolinaLight,
         style: 'Cream Ale',
         abv: '4.7%',
         description:
@@ -68,7 +85,7 @@ export const breweries = [
       {
         id: 'vale',
         name: 'Vale Cream Ale',
-        imageUrl: '/src/img/vale.jpeg',
+        imageUrl: beerVale,
         style: 'Cream Ale',
         abv: '4.7%',
         description:
@@ -77,7 +94,7 @@ export const breweries = [
       {
         id: 'purge',
         name: 'Purge Under Pilsner',
-        imageUrl: 'src/img/purge.jpeg',
+        imageUrl: beerPurge,
         style: 'Pilsner-German',
         abv: '4.9%',
         description:
@@ -88,7 +105,7 @@ export const breweries = [
   {
     id: 'hunterGatherer',
     name: 'Hunter-Gatherer Brewery',
-    imageUrl: '/src/img/hg.png',
+    imageUrl: beerHg,
     location: '1402 Jim Hamilton Blvd, Columbia, SC',
     tagline: '',
     theme: {
@@ -101,7 +118,7 @@ export const breweries = [
       {
         id: 'hazy',
         name: 'Hazy IPA',
-        imageUrl: '/src/img/hazy.jpg',
+        imageUrl: beerHazy,
         style: 'IPA',
         abv: '7.0%',
         description:
@@ -110,7 +127,7 @@ export const breweries = [
       {
         id: 'stout',
         name: 'Stout',
-        imageUrl: 'src/img/stout.jpg',
+        imageUrl: beerStout,
         style: 'Stout',
         abv: '4.0%',
         description:
@@ -119,7 +136,7 @@ export const breweries = [
       {
         id: 'rasp-sour',
         name: 'Raspberry Sour',
-        imageUrl: 'src/img/rasp-sour.jpg',
+        imageUrl: beerRaspSour,
         style: 'Sour Ale ',
         abv: '4%',
         description:
@@ -130,7 +147,7 @@ export const breweries = [
   {
     id: 'bierkeller',
     name: 'Bierkeller',
-    imageUrl: 'src/img/bierkeller.png',
+    imageUrl: beerBierkeller,
     location: '600 Canalside St Suite 1009, Columbia, SC',
     tagline: 'Columbia’s Original Riverfront Brewery, Restaurant, and Biergarten',
     theme: {
@@ -144,7 +161,7 @@ export const breweries = [
       {
         id: 'kellerbier',
         name: 'Kellerbier',
-        imageUrl: 'src/img/kellerbier.png',
+        imageUrl: beerKellerbier,
         style: 'Unfiltered Franconian Lager',
         abv: '--%',
         description:
@@ -153,7 +170,7 @@ export const breweries = [
       {
         id: 'kolsch',
         name: 'Kolsch',
-        imageUrl: 'src/img/kolsch.png',
+        imageUrl: beerKolsch,
         style: 'Kolsch',
         abv: '--%',
         description:
@@ -162,7 +179,7 @@ export const breweries = [
       {
         id: 'weissbier',
         name: 'Weissbier',
-        imageUrl: 'src/img/weissbier.png',
+        imageUrl: beerWeissbier,
         style: 'Bavarian Wheat Beer',
         abv: '--%',
         description:
