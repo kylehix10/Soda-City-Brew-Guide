@@ -1,2 +1,3 @@
 # Soda-City-Brew-Guide
-Website used to see breweries and their craft beer for Columbia, SC.
+React application:
+A front-end static prototype for the ColaBrewScraper application.
